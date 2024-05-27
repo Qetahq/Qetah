@@ -1,0 +1,362 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-17 20:53:17.922076",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "item_code",
+  "normal_qty",
+  "urgent_qty",
+  "total_qty",
+  "name1",
+  "gender",
+  "mobile",
+  "age_group",
+  "measurement_topwear_section",
+  "heightlength",
+  "chest",
+  "waist",
+  "hip",
+  "thigh",
+  "armhole",
+  "bust",
+  "column_break_xak3i",
+  "bottom",
+  "shoulder",
+  "sleeve",
+  "round_sleeve",
+  "mohrycuff",
+  "neck",
+  "bicep",
+  "hem",
+  "measurement_bottomwear_section",
+  "heightlength_b",
+  "kam",
+  "waist_b",
+  "hip_b",
+  "thigh_b",
+  "column_break_hvhpy",
+  "bottom_b",
+  "round_b",
+  "ar_b",
+  "mohrycuff_b",
+  "hem_b",
+  "specification",
+  "material",
+  "front_pocket",
+  "front_pocket__",
+  "buttons",
+  "collar",
+  "sewing_seams",
+  "total_dress",
+  "column_break_kozqh",
+  "cuff",
+  "side_pocket",
+  "remarks",
+  "notes",
+  "reference"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "columns": 2,
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "age_group",
+   "fieldtype": "Select",
+   "label": "Age Group",
+   "options": "\nAdult\nTeenager\nChild"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "measurement_topwear_section",
+   "fieldtype": "Section Break",
+   "label": "Measurement Topwear"
+  },
+  {
+   "fieldname": "heightlength",
+   "fieldtype": "Data",
+   "label": "Height/Length"
+  },
+  {
+   "fieldname": "chest",
+   "fieldtype": "Data",
+   "label": "Chest"
+  },
+  {
+   "fieldname": "waist",
+   "fieldtype": "Data",
+   "label": "Waist"
+  },
+  {
+   "fieldname": "hip",
+   "fieldtype": "Data",
+   "label": "Hip"
+  },
+  {
+   "fieldname": "thigh",
+   "fieldtype": "Data",
+   "label": "Thigh"
+  },
+  {
+   "fieldname": "armhole",
+   "fieldtype": "Data",
+   "label": "Armhole"
+  },
+  {
+   "fieldname": "bust",
+   "fieldtype": "Data",
+   "label": "Bust"
+  },
+  {
+   "fieldname": "column_break_xak3i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bottom",
+   "fieldtype": "Data",
+   "label": "Bottom"
+  },
+  {
+   "fieldname": "shoulder",
+   "fieldtype": "Data",
+   "label": "Shoulder"
+  },
+  {
+   "fieldname": "sleeve",
+   "fieldtype": "Data",
+   "label": "Sleeve"
+  },
+  {
+   "fieldname": "round_sleeve",
+   "fieldtype": "Data",
+   "label": "Round Sleeve"
+  },
+  {
+   "fieldname": "mohrycuff",
+   "fieldtype": "Data",
+   "label": "Mohry/cuff"
+  },
+  {
+   "fieldname": "neck",
+   "fieldtype": "Data",
+   "label": "Neck"
+  },
+  {
+   "fieldname": "bicep",
+   "fieldtype": "Data",
+   "label": "Bicep"
+  },
+  {
+   "fieldname": "hem",
+   "fieldtype": "Data",
+   "label": "HEM"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "measurement_bottomwear_section",
+   "fieldtype": "Section Break",
+   "label": "Measurement Bottomwear"
+  },
+  {
+   "fieldname": "heightlength_b",
+   "fieldtype": "Data",
+   "label": "Height/Length"
+  },
+  {
+   "fieldname": "kam",
+   "fieldtype": "Data",
+   "label": "KAM"
+  },
+  {
+   "fieldname": "waist_b",
+   "fieldtype": "Data",
+   "label": "Waist"
+  },
+  {
+   "fieldname": "hip_b",
+   "fieldtype": "Data",
+   "label": "Hip"
+  },
+  {
+   "fieldname": "thigh_b",
+   "fieldtype": "Data",
+   "label": "Thigh"
+  },
+  {
+   "fieldname": "column_break_hvhpy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bottom_b",
+   "fieldtype": "Data",
+   "label": "Bottom"
+  },
+  {
+   "fieldname": "round_b",
+   "fieldtype": "Data",
+   "label": "Round"
+  },
+  {
+   "fieldname": "ar_b",
+   "fieldtype": "Data",
+   "label": "AR"
+  },
+  {
+   "fieldname": "mohrycuff_b",
+   "fieldtype": "Data",
+   "label": "Mohry/cuff"
+  },
+  {
+   "fieldname": "hem_b",
+   "fieldtype": "Data",
+   "label": "HEM"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "specification",
+   "fieldtype": "Section Break",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "front_pocket",
+   "fieldtype": "Select",
+   "label": "Front Pocket",
+   "options": "\n1 Regular\n2 H cut\n3 V shape\n4 Circle"
+  },
+  {
+   "fieldname": "front_pocket__",
+   "fieldtype": "Data",
+   "label": "Front Pocket _"
+  },
+  {
+   "fieldname": "buttons",
+   "fieldtype": "Data",
+   "label": "Buttons"
+  },
+  {
+   "fieldname": "collar",
+   "fieldtype": "Select",
+   "label": "Collar",
+   "options": "\n1 Classic\n2 Band\n3 V Type\n4 O Circle Type"
+  },
+  {
+   "fieldname": "sewing_seams",
+   "fieldtype": "Select",
+   "label": "Sewing Seams",
+   "options": "\n1. Plain Seam\n2 Flat Felled Seam\n3 Top Stitching Seam\n4 Double Top Stitched seam"
+  },
+  {
+   "fieldname": "total_dress",
+   "fieldtype": "Float",
+   "label": "Total Dress"
+  },
+  {
+   "fieldname": "column_break_kozqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cuff",
+   "fieldtype": "Select",
+   "label": "Cuff",
+   "options": "\n1 Plain\n2 Straight Cuff\n3 Round Cuff\n4 Classic Cuff"
+  },
+  {
+   "fieldname": "side_pocket",
+   "fieldtype": "Select",
+   "label": "Side Pocket",
+   "options": "\nV type\nO type"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  },
+  {
+   "columns": 1,
+   "fieldname": "normal_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Normal Qty",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "urgent_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Urgent",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-19 15:08:05.066818",
+ "modified_by": "Administrator",
+ "module": "Qetah",
+ "name": "Cutting Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-12-12 19:11:07.048557",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "customer",
+  "allocated_person",
+  "column_break_ctm1p",
+  "date",
+  "delivery_date",
+  "embroidery",
+  "section_break_dln43",
+  "sales_items",
+  "ironing_table",
+  "naming_series",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "sales_order.customer",
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "delivery_date",
+   "fieldtype": "Date",
+   "label": "Delivery Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ironing_table",
+   "fieldtype": "Table",
+   "label": "Ironing Table",
+   "options": "Ironing Table"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "IRON-ITEMS-"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Ironing",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "allocated_person",
+   "fieldtype": "Link",
+   "label": "Allocated Person",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ctm1p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dln43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_items",
+   "fieldtype": "Table",
+   "label": "Sales Items",
+   "options": "Ironing Sales Items"
+  },
+  {
+   "fieldname": "embroidery",
+   "fieldtype": "Link",
+   "label": "Embroidery",
+   "options": "Embroidery",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-19 12:25:07.322675",
+ "modified_by": "Administrator",
+ "module": "Qetah",
+ "name": "Ironing",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
