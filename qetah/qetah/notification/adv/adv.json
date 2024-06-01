@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "",
+ "creation": "2024-05-31 23:51:08.101475",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Employee Advance",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Add your message here</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-06-01 00:03:40.679456",
+ "modified_by": "malsaad@qetah.qa",
+ "module": "Qetah",
+ "name": "ADV",
+ "owner": "malsaad@qetah.qa",
+ "recipients": [
+  {
+   "condition": "",
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{ doc.name }} Delivered"
+}
