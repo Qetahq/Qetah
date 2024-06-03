@@ -12,4 +12,4 @@ frappe.ui.form.on('Female Measurement', {
 		frm.set_value("total_dress",  frm.doc.normal + frm.doc.urgent1);
 
 	}
-})
+});
