@@ -224,7 +224,8 @@ doctype_js = {
 # ]
 
 fixtures = [
-    {"dt": "Custom Field", "filters": [["module", "=", "Qetah"]]}
+    {"dt": "Custom Field", "filters": [["module", "=", "Qetah"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "Qetah"]]},
 ]
 
 # Automatically update python controller files with type annotations for this app.
