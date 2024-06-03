@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestPOqtt(FrappeTestCase):
+class TestServiceOrder(FrappeTestCase):
 	pass

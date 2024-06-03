@@ -1,36 +1,51 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-05-31 12:28:54.994744",
+ "creation": "2024-06-03 10:52:57.253737",
+ "default_view": "List",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "section_break_9vjo",
+  "name1",
+  "measurement_section",
+  "measurement",
   "amended_from"
  ],
  "fields": [
   {
-   "fieldname": "section_break_9vjo",
-   "fieldtype": "Section Break"
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "measurement_section",
+   "fieldtype": "Section Break",
+   "label": "Measurement"
+  },
+  {
+   "fieldname": "measurement",
+   "fieldtype": "Table",
+   "label": "Measurement",
+   "options": "Measurement"
   },
   {
    "fieldname": "amended_from",
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "knlkmlk",
+   "options": "tes xx measurement",
    "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-05-31 12:32:03.819350",
+ "modified": "2024-06-03 11:23:14.837173",
  "modified_by": "Administrator",
  "module": "Qetah",
- "name": "knlkmlk",
+ "name": "tes xx measurement",
  "owner": "Administrator",
  "permissions": [
   {
@@ -43,7 +58,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class Testknlkmlk(FrappeTestCase):
+class TestzzXXMaleMeasurementXX(FrappeTestCase):
 	pass
